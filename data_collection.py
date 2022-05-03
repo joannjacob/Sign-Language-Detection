@@ -10,7 +10,7 @@ count = 1
 while count <= 1200:
     # Capture current frame
     rval, frame = camera.read()
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    # gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     
     width = int(camera.get(3)+0.5)
     height = int(camera.get(4)+0.5)
@@ -26,7 +26,7 @@ while count <= 1200:
     
     key = cv2.waitKey(1)
     # exit when ESC is pressed
-    if key == 27:
+    if key & 0xFF == ord('q'):
         break
     # Take picture when Delete button is pressed.
     if key == 13:
