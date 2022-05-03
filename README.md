@@ -13,6 +13,7 @@
 
 ## Dataset
 Link to Dataset - [Link](https://drive.google.com/drive/u/0/folders/1xN_20z27PJDt9bASUOHGIELpJjTtZyMl). 
+Kaggle Link - [Link](https://www.kaggle.com/datasets/joannracheljacob/american-sign-language-dataset).
 
 ## Technologies and Tools
 * Python 
