@@ -1,7 +1,6 @@
 import cv2
 import os
 
-# Variables
 name = input('Enter Name: ').upper()
 camera = cv2.VideoCapture(0)
 count = 1
@@ -25,10 +24,10 @@ while count <= 1200:
     # cv2.imshow('gray_frame', gray)
     
     key = cv2.waitKey(1)
-    # exit when ESC is pressed
+    # exit when q is pressed
     if key & 0xFF == ord('q'):
         break
-    # Take picture when Delete button is pressed.
+    # Take picture when enter button is pressed.
     if key == 13:
         # crop ROI
         crop_y = y + w
