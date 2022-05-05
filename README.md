@@ -29,8 +29,8 @@ data_collection.py can be run to capture data for each class using the command p
 
 ## Models
 
-Simple CNN model using Sign Language MNIST dataset
-Simple CNN model using ASL Kaggle dataset
-VGG16 using ASL Kaggle dataset
-ResnNet50 using ASL Kaggle dataset
-ResNet50 using Custom ASL Dataset
+* Simple CNN model using Sign Language MNIST dataset
+* Simple CNN model using ASL Kaggle dataset
+* VGG16 using ASL Kaggle dataset
+* ResnNet50 using ASL Kaggle dataset
+* ResNet50 using Custom ASL Dataset
