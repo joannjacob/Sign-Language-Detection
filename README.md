@@ -1,4 +1,4 @@
-# Sign Language Interpreter using Deep Learning
+# Sign Language Recognition using Deep Learning
 > A sign language interpreter using live video feed from the camera.
 
 ## Table of contents
@@ -7,9 +7,10 @@
 * [Screenshots](#screenshots)
 * [Technologies and Tools](#technologies-and-tools)
 * [Setup](#setup)
-* [Process](#process)
-* [Features](#features)
+* [Models](#features)
 * [Status](#status)
+
+## General Info
 
 ## Dataset
 Link to Dataset - [Link](https://drive.google.com/drive/u/0/folders/1xN_20z27PJDt9bASUOHGIELpJjTtZyMl). 
@@ -20,3 +21,16 @@ Kaggle Link - [Link](https://www.kaggle.com/datasets/joannracheljacob/american-s
 * TensorFlow
 * Keras
 * OpenCV
+
+## Setup
+
+data_collection.py can be run to capture data for each class using the command python data_collection.py 
+
+
+## Models
+
+Simple CNN model using Sign Language MNIST dataset
+Simple CNN model using ASL Kaggle dataset
+VGG16 using ASL Kaggle dataset
+ResnNet50 using ASL Kaggle dataset
+ResNet50 using Custom ASL Dataset
