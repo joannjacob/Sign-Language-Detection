@@ -26,6 +26,8 @@ Kaggle Link - [Link](https://www.kaggle.com/datasets/joannracheljacob/american-s
 
 data_collection.py can be run to capture data for each class using the command python data_collection.py 
 
+Trained model h5 file link - [Link](https://drive.google.com/file/d/1ZSEqRN4lgzfp_1_6nQ_4nlzq5rZ7DSeD/view?usp=sharing)
+
 
 ## Models
 
