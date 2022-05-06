@@ -14,7 +14,7 @@ In our project, we use multiple models including CNN, VGG16 and ResNet50 for eff
 
 ## Dataset
 1. Sign Language MNIST dataset - [Link](https://www.kaggle.com/datasets/datamunge/sign-language-mnist)
-2. American Sign Language dataset - [Link](https://www.kaggle.com/datasets/grassknoted/asl-alphabet)
+2. ASL Alphabet dataset - [Link](https://www.kaggle.com/datasets/grassknoted/asl-alphabet)
 3. Custom dataset - [Link](https://www.kaggle.com/datasets/joannracheljacob/american-sign-language-dataset).
 
 ## Technologies and Tools
@@ -22,19 +22,22 @@ In our project, we use multiple models including CNN, VGG16 and ResNet50 for eff
 * TensorFlow
 * Keras
 * OpenCV
-* pandas
+* Pandas
 * NumPy
+* Fastai
+* Matplotlib
+* PIL
 
 ## Demo
 
 data_collection.py is used to generate data for each class. This can be run using the command -  python data_collection.py 
 
-Trained model h5 file link - [Link](https://drive.google.com/file/d/1ZSEqRN4lgzfp_1_6nQ_4nlzq5rZ7DSeD/view?usp=sharing)
+Trained resnet50 model h5 file link - [Link](https://drive.google.com/file/d/1ZSEqRN4lgzfp_1_6nQ_4nlzq5rZ7DSeD/view?usp=sharing)
 
-1. Load the demo.ipynb file into kaggle
-2. Download the h5 file from drive  and add the h5 model on kaggle as a dataset into the input directory.
-3. Add the dataset from kaggle itself by searching this link - [Link](https://www.kaggle.com/datasets/joannracheljacob/american-sign-language-dataset)
-4. Run the code for prediction of one image using our final model
+1. Load the demo.ipynb file into kaggle.
+2. Download the h5 file from drive and add the h5 model on kaggle as a dataset into the input directory.
+3. Add the dataset from kaggle itself by searching this link - [Link](https://www.kaggle.com/datasets/joannracheljacob/american-sign-language-dataset).
+4. Run the code for prediction of one image using our final model.
 
 
 ## Models
