@@ -28,6 +28,10 @@ data_collection.py can be run to capture data for each class using the command p
 
 Trained model h5 file link - [Link](https://drive.google.com/file/d/1ZSEqRN4lgzfp_1_6nQ_4nlzq5rZ7DSeD/view?usp=sharing)
 
+1. Add the h5 model on kaggle as a dataset into the input directory.
+2. Add the dataset from kaggle itself using this link - [Link](https://www.kaggle.com/datasets/joannracheljacob/american-sign-language-dataset)
+3. 
+
 
 ## Models
 
