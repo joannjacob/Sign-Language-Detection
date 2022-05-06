@@ -1,29 +1,32 @@
 # Sign Language Recognition using Deep Learning
-> A system to recognize American Sign language from a custom generated dataset.
+Communication is a very important part of our lives. Though most of our communications are through speech, some people are unable to do so due to not being able to speak or hear. Deafness may be caused by genetics, birth defects, ear infections, drug use, excessive noise exposure and aging. The deaf and mute community benefit greatly from the use of sign language. While sign language is vital to their ability to communicate with others and with themselves, it receives little attention from the general public. Ordinary people tend to overlook the relevance of sign language unless they are our close ones. Using the services of a sign language interpreter is one way for them but it can be expensive. An efficient and low cost solution is needed for these people to communicate normally.
+
+In our project, we use multiple model including CNN, BGG16 and ResNet50 for efficient recognition of Americal sign language dataset using our custom dataset of 26 alphabets, 9 digits and 3 simple words. 
 
 ## Table of contents
-* [General info](#general-info)
-* [Dataset](#dataset)
+* [Datasets](#dataset)
 * [Screenshots](#screenshots)
 * [Technologies and Tools](#technologies-and-tools)
 * [Setup](#setup)
 * [Models](#features)
 * [Status](#status)
 
-## General Info
-
 ## Dataset
-Kaggle Link for custom dataset - [Link](https://www.kaggle.com/datasets/joannracheljacob/american-sign-language-dataset).
+1. Sign Language MNIST dataset - [Link](https://www.kaggle.com/datasets/datamunge/sign-language-mnist)
+2. American Sign Language dataset - [Link](https://www.kaggle.com/datasets/grassknoted/asl-alphabet)
+3. Custom dataset - [Link](https://www.kaggle.com/datasets/joannracheljacob/american-sign-language-dataset).
 
 ## Technologies and Tools
 * Python 
 * TensorFlow
 * Keras
 * OpenCV
+* pandas
+* NumPy
 
 ## Demo
 
-data_collection.py can be run to capture data for each class using the command python data_collection.py 
+data_collection.py is used to generate data for each class. This can be run using the command -  python data_collection.py 
 
 Trained model h5 file link - [Link](https://drive.google.com/file/d/1ZSEqRN4lgzfp_1_6nQ_4nlzq5rZ7DSeD/view?usp=sharing)
 
