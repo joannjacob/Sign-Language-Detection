@@ -13,8 +13,7 @@
 ## General Info
 
 ## Dataset
-Link to Dataset - [Link](https://drive.google.com/drive/u/0/folders/1xN_20z27PJDt9bASUOHGIELpJjTtZyMl). 
-Kaggle Link - [Link](https://www.kaggle.com/datasets/joannracheljacob/american-sign-language-dataset).
+Kaggle Link for custom dataset - [Link](https://www.kaggle.com/datasets/joannracheljacob/american-sign-language-dataset).
 
 ## Technologies and Tools
 * Python 
@@ -22,15 +21,16 @@ Kaggle Link - [Link](https://www.kaggle.com/datasets/joannracheljacob/american-s
 * Keras
 * OpenCV
 
-## Setup
+## Demo
 
 data_collection.py can be run to capture data for each class using the command python data_collection.py 
 
 Trained model h5 file link - [Link](https://drive.google.com/file/d/1ZSEqRN4lgzfp_1_6nQ_4nlzq5rZ7DSeD/view?usp=sharing)
 
-1. Add the h5 model on kaggle as a dataset into the input directory.
-2. Add the dataset from kaggle itself using this link - [Link](https://www.kaggle.com/datasets/joannracheljacob/american-sign-language-dataset)
-3. 
+1. Load the demo.ipynb file into kaggle
+2. Download the h5 file from drive  and add the h5 model on kaggle as a dataset into the input directory.
+3. Add the dataset from kaggle itself by searching this link - [Link](https://www.kaggle.com/datasets/joannracheljacob/american-sign-language-dataset)
+4. Run the code for prediction of one image using our final model
 
 
 ## Models
