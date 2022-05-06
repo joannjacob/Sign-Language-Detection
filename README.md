@@ -1,5 +1,5 @@
 # Sign Language Recognition using Deep Learning
-> A sign language interpreter using live video feed from the camera.
+> A system to recognize American Sign language from a custom generated dataset.
 
 ## Table of contents
 * [General info](#general-info)
