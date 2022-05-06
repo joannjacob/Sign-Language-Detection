@@ -47,4 +47,4 @@ Trained model h5 file link - [Link](https://drive.google.com/file/d/1ZSEqRN4lgzf
 
 ## Screenshots
 
-![Example screenshot](./images/custom_dataset.PNG)
+![Example screenshot](./images/custom_dataset.png)
